@@ -18,58 +18,58 @@ function ComponentExamples() {
                 color: '#667eea',
                 marginBottom: '40px'
             }}>
-                ตัวอย่าง React Components
+                My react components!!
             </h1>
-            
+
             <section style={{
                 marginBottom: '40px',
                 padding: '20px',
                 border: '1px solid #eee',
                 borderRadius: '8px',
-                backgroundColor: '#fafafa'
+                backgroundColor: '#b5ddf8ff'
             }}>
                 <h2 style={{ color: '#333', marginBottom: '20px' }}>
-                    Simple Components
+                    Communication!!
                 </h2>
                 <Welcome />
                 <Greeting />
             </section>
-            
+
             <section style={{
                 marginBottom: '40px',
                 padding: '20px',
                 border: '1px solid #eee',
                 borderRadius: '8px',
-                backgroundColor: '#fafafa'
+                backgroundColor: '#b5ddf8ff'
             }}>
                 <h2 style={{ color: '#333', marginBottom: '20px' }}>
-                    Component with Logic
+                    Time!!
                 </h2>
                 <Clock />
             </section>
-             
+
             <section style={{
                 marginBottom: '40px',
                 padding: '20px',
                 border: '1px solid #eee',
                 borderRadius: '8px',
-                backgroundColor: '#fafafa'
+                backgroundColor: '#b5ddf8ff'
             }}>
                 <h2 style={{ color: '#333', marginBottom: '20px' }}>
-                    Component Composition
+                    My profile!!
                 </h2>
                 <UserCard />
             </section>
-            
+
             <section style={{
                 marginBottom: '40px',
                 padding: '20px',
                 border: '1px solid #eee',
                 borderRadius: '8px',
-                backgroundColor: '#fafafa'
+                backgroundColor: '#b5ddf8ff'
             }}>
                 <h2 style={{ color: '#333', marginBottom: '20px' }}>
-                    Complex Component
+                    TodoList!!
                 </h2>
                 <TodoList />
             </section>

@@ -3,21 +3,21 @@ import React from 'react';
 const TodoList = () => {
     // ข้อมูลที่จะแสดง
     const todos = [
-        { id: 1, text: 'เรียน React พื้นฐาน', completed: true },
-        { id: 2, text: 'ทำความเข้าใจ Components', completed: true },
-        { id: 3, text: 'ฝึก Props และ State', completed: false },
-        { id: 4, text: 'สร้างโปรเจคจริง', completed: false }
+        { id: 1, text: 'Project Machien learning', completed: true },
+        { id: 2, text: 'Prepare for midterm Examination', completed: true },
+        { id: 3, text: 'Project Front-end, back-end', completed: false },
+        { id: 4, text: 'Sleep', completed: false }
     ];
-    
+
     // คำนวณสถิติ
     const completedCount = todos.filter(todo => todo.completed).length;
     const totalCount = todos.length;
     const percentage = Math.round((completedCount / totalCount) * 100);
-    
+
     return (
         <div style={{ maxWidth: '500px', margin: '20px auto', padding: '20px' }}>
             <h3>📝 รายการที่ต้องทำ</h3>
-            
+
             {/* Progress Bar */}
             <div style={{
                 backgroundColor: '#f0f0f0',
@@ -38,11 +38,11 @@ const TodoList = () => {
                     {percentage}%
                 </div>
             </div>
-            
+
             {/* Todo Items */}
             <div style={{ margin: '20px 0' }}>
                 {todos.map(todo => (
-                    <div 
+                    <div
                         key={todo.id}
                         style={{
                             padding: '12px',
@@ -68,7 +68,7 @@ const TodoList = () => {
                     </div>
                 ))}
             </div>
-            
+
             {/* Summary */}
             <div style={{
                 marginTop: '20px',
